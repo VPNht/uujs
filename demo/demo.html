@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>VPN.ht SmartDNS - check status</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!-- @end Styles -->
+
+  <style>
+    #main {
+      padding: 30px 30px 150px 30px;
+    }
+    .help {
+      cursor: pointer;
+      color: #aaa;
+    }
+    h4 {
+      margin-top: 30px;
+    }
+    hr {
+      margin: 30px 0;
+    }
+    #status span {
+      text-transform: capitalize;
+    }
+  </style>
+
+</head>
+<body>
+
+
+<div id="main" class="container">
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+
+      <form role="form">
+
+        <div class="row">
+
+          <div class="col-md-2">
+            <a id="refresh-status" class="btn btn-default">Check DNS status</a>
+          </div>
+        </div>
+
+      </form>
+
+      <hr>
+
+      <div id="status" class="row">
+
+        <div id="account-dns" class="col-md-4">
+          <i data-container="body" data-toggle="popover" data-placement="right" data-content="Whether the device has our DNS setup correctly or not" class="fa fa-question-circle fa-lg help"></i>
+          <label>DNS:</label>
+          <span></span>
+        </div>
+
+        <div id="account-ip" class="col-md-4">
+          <i data-container="body" data-toggle="popover" data-placement="right" data-content="Current IP address" class="fa fa-question-circle fa-lg help"></i>
+          <label>Current IP:</label>
+          <span></span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <hr>
+
+</div>
+
+
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+
+<script src="../build/jquery.uu.js"></script>
+<script src="demo.js"></script>
+<!-- @end Scripts -->
+
+</body>
+</html>

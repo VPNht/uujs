@@ -1,0 +1,20 @@
+{
+  "name": "UU-JS",
+  "version": "1.0.0",
+  "author": "NetProtect",
+  "license": "MIT",
+  "url": "http://netprotect.com",
+  "dependencies": {
+    "requirejs": "^2.1.15"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-strip": "^0.2.1",
+    "grunt-remove-logging": "^0.2.0"
+  }
+}
